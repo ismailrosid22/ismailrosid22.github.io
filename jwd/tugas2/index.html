@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUGAS || JWD.I</title>
+    <link
+      rel="stylesheet"
+      href="asets/bootstrap-5.0.2-dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="asets/fontawesome-free/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!------------- Membuat Sistem Menu dengan Bootstrap (Navbar) --------------->
+    <div class="container-fluid border-bottom fixed-top">
+      <div class="container-lg">
+        <nav class="navbar navbar-expand navbar-light bg-white">
+          <div class="container mx-lg-2">
+            <a class="navbar-brand my-font-satu fs-4" href="#">isməɡram</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-md-auto">
+                <li class="nav-item">
+                  <form class="d-flex">
+                    <div class="input-group my-1 me-md-5">
+                      <span class="search-icon" id="basic-addon1">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </span>
+                      <input
+                        class="search-input"
+                        placeholder="Search"
+                        type="text"
+                      />
+                    </div>
+                  </form>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    ><i class="fa-solid fa-house fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-share-from-square fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-folder-plus fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-circle-chevron-down fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-heart fs-5"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Display blok start, untuk menahan konten di bawah nya agar tidak naik ke atas -->
+    <div style="visibility: hidden" class="container-fluid border-bottom">
+      <div class="">
+        <nav class="navbar navbar-expand navbar-light bg-white">
+          <div class="container mx-lg-2">
+            <a class="navbar-brand" href="#">xxxxx</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-md-auto">
+                <li class="nav-item">
+                  <form class="d-flex">
+                    <div class="input-group my-1 me-md-5">
+                      <span class="search-icon" id="basic-addon1">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </span>
+                      <input
+                        class="search-input"
+                        placeholder="Search"
+                        type="text"
+                      />
+                    </div>
+                  </form>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    ><i class="fa-solid fa-house fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-share-from-square fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-folder-plus fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-circle-chevron-down fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item list">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-heart fs-5"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Display blok End -->
+    <!-- Navbar bottom start, ini akan ditampilkan dilayout mobile -->
+    <div class="mobile container-fluid border-top fixed-bottom">
+      <div class="container-lg">
+        <nav class="navbar navbar-expand navbar-light bg-white">
+          <div class="container mx-lg-2">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-md-auto">
+                <li class="nav-item listb mx-4">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    ><i class="fa-solid fa-house fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item listb me-3">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-share-from-square fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item listb me-3">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-folder-plus fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item listb">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-circle-chevron-down fs-5"></i
+                  ></a>
+                </li>
+                <li class="nav-item listb mx-4">
+                  <a class="nav-link" href="#"
+                    ><i class="fa-solid fa-heart fs-5"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar bottom End-->
+
+    <!---------------  3. Membuat Layout dengan Bootstrap (Grid) --------------->
+    <!-- Lets do -->
+    <!-- Content start, untuk tugas 1 -->
+    <div class="container-fluid mt-md-5 mt-3 mb-5">
+      <div class="container-lg">
+        <div class="row align-items-center mb-4">
+          <div class="col-4">
+            <!-- Masih ada masalah -->
+            <div class="photo-profile d-flex m-auto">
+              <img
+                class="rounded-circle img-thumbnail img-fluid ms-3 ms-md-0"
+                src="asets/img/pp.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="row align-items-center mb-3">
+              <div class="col-8 col-md-4 overflow-hidden">
+                <div class="fs-3">Ismailrosiddd</div>
+              </div>
+              <div class="col-4 d-md-none">
+                <button class="fs-5 ms-lg-1 my-btn-dua">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+              </div>
+              <div class="col-12 col-md-8">
+                <button class="d-inline-block fw-bold my-btn-satu">
+                  Message
+                </button>
+                <button class="d-inline-block my-btn-satu">
+                  <i class="fa-solid fa-user-check"></i>
+                </button>
+                <button class="d-inline-block my-btn-satu">
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <button class="d-none d-md-inline-block ms-lg-1 my-btn-dua">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+              </div>
+            </div>
+            <div class="row align-items-center d-none d-md-block">
+              <div class="col-12">
+                <p class="d-inline me-lg-5 me-md-3 fs-5"><b>566 </b>posts</p>
+                <p class="d-inline me-lg-5 me-md-3 fs-5">
+                  <b>22.1K </b>followers
+                </p>
+                <p class="d-inline fs-5 me-md-3"><b>120</b> following</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row align-items-center text-center mx-2 lh-sm mb-1 d-flex d-md-none"
+        >
+          <div class="col-4">
+            <p class="d-inline me-lg-5 me-md-3 fs-5"><b>566 </b>posts</p>
+          </div>
+          <div class="col-4">
+            <p class="d-inline me-lg-5 me-md-3 fs-5"><b>22.1K </b>followers</p>
+          </div>
+          <div class="col-4">
+            <p class="d-inline fs-5 me-md-3"><b>120</b> following</p>
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-center border-top mx-md-3 align-items-center justify-content-around justify-content-md-center my-2"
+        >
+          <div class="me-lg-5 me-md-3 border-top border-dark pt-2 pt-md-3">
+            <span class=""
+              ><i class="fa-solid fa-border-all nav-feeds"></i
+            ></span>
+            <span class="d-none d-md-inline">POSTS</span>
+          </div>
+          <div class="me-lg-5 me-md-3 text-muted pt-2 pt-md-3">
+            <span class=""
+              ><i class="fa-solid fa-address-card nav-feeds"></i
+            ></span>
+            <span class="d-none d-md-inline">GUIDES</span>
+          </div>
+          <div class="me-lg-5 me-md-3 text-muted pt-2 pt-md-3">
+            <span class=""
+              ><i class="fa-solid fa-circle-play nav-feeds"></i
+            ></span>
+            <span class="d-none d-md-inline">REELSS</span>
+          </div>
+          <div class="me-lg-5 me-md-3 text-muted pt-2 pt-md-3">
+            <span class=""
+              ><i class="fa-solid fa-circle-user nav-feeds"></i
+            ></span>
+            <span class="d-none d-md-inline">TAGGED</span>
+          </div>
+        </div>
+        <div class="row mx-md-2 feed">
+          <div class="col-4 p-lg-3 p-md-2 p-0">
+            <img class="img-fluid" src="asets/img/img1.png" alt="" />
+          </div>
+          <div class="col-4 p-lg-3 p-md-2 p-0">
+            <img class="img-fluid" src="asets/img/img2.png" alt="" />
+          </div>
+          <div class="col-4 p-lg-3 p-md-2 p-0">
+            <img class="img-fluid" src="asets/img/img3.png" alt="" />
+          </div>
+          <div class="col-4 p-lg-3 p-md-2 p-0">
+            <img class="img-fluid" src="asets/img/img1.png" alt="" />
+          </div>
+          <div class="col-4 p-lg-3 p-md-2 p-0">
+            <img class="img-fluid" src="asets/img/img2.png" alt="" />
+          </div>
+          <div class="col-4 p-lg-3 p-md-2 p-0">
+            <img class="img-fluid" src="asets/img/img3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content End -->
+
+    <!---------------  2. Membuat Form Group dengan Bootstrap (Form) --------------->
+    <div class="container-fluid mb-5">
+      <div class="container-md">
+        <hr class="mb-md-5 mb-1" />
+        <div class="row p-2">
+          <div class="col-4 d-none d-lg-block">
+            <div class="h4">CONTACT US</div>
+            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum harum doloremque excepturi! Molestias, quam sit.</p> -->
+            <div class="row">
+              <div class="col-1"><i class="fa-solid fa-phone"></i></div>
+              <div class="col-11">0813-8433-4407</div>
+            </div>
+            <div class="row">
+              <div class="col-1"><i class="fa-solid fa-envelope"></i></div>
+              <div class="col-11">
+                <a class="contact" href="ismailrosid78@gmail.com"
+                  >Ismailrosid78@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="col-11 overflow-hidden">
+                <a class="contact" href="https://goo.gl/maps/chjuGAqtMf9eL4K1A"
+                  >https://goo.gl/maps/chjuGAqtMf9eL4K1A</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="message p-md-5">
+              <div class="input-group input-group-sm mb-3">
+                <input
+                  placeholder="Name"
+                  type="text"
+                  class="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-sm"
+                />
+              </div>
+              <div class="input-group input-group-sm mb-3">
+                <input
+                  placeholder="Email"
+                  type="text"
+                  class="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-sm"
+                />
+              </div>
+              <div class="input-group input-group-sm mb-3">
+                <textarea
+                  placeholder="Message"
+                  class="form-control"
+                  name=""
+                  id=""
+                  cols="100%"
+                  rows="5%"
+                ></textarea>
+              </div>
+              <div class="mb-3 text-end d-grid">
+                <button type="button" class="btn btn-success btn-sm">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

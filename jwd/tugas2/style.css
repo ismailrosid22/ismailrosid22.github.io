@@ -1,0 +1,96 @@
+html body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+.search-icon {
+  display: flex;
+  align-items: center;
+  padding: 0.575rem 0.95rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #efefef;
+  border: 0px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.search-input {
+  background-color: #efefef;
+  border: 0px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.photo-profile {
+  width: 50% !important;
+}
+div.mobile {
+  display: none;
+}
+.my-btn-satu {
+  padding: 0.3rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+  border: 1.5px solid #efefef;
+  background-color: white;
+}
+.my-btn-dua {
+  padding: 0.3rem 1rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: white;
+}
+
+.feed img:hover {
+  opacity: 0.8;
+}
+.my-font-satu {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.contact {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  nav div a.navbar-brand {
+    display: none;
+  }
+  nav div div ul li.list {
+    display: none;
+  }
+  nav div div ul.navbar-nav {
+    margin: 0px auto;
+  }
+  .photo-profile {
+    width: 100% !important;
+  }
+  .my-btn-satu {
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+    border: 1.5px solid #efefef;
+    background-color: white;
+  }
+  .my-btn-dua {
+    padding: 0.3rem 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: white;
+  }
+  div.mobile {
+    display: block;
+  }
+  .nav-feeds {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .message {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+}
